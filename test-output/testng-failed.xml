@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SignInTest(failed)">
+    <parameter name="webURL" value="https://www.saucedemo.com/"/>
+    <parameter name="browserType" value="chrome"/>
+    <classes>
+      <class name="lamnguyenthanh.testcases.ProductTest">
+        <methods>
+          <include name="ProductPage"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="close"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- lamnguyenthanh.testcases.ProductTest -->
+    </classes>
+  </test> <!-- SignInTest(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

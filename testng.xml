@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="SignInTest">
+        <parameter name="browserType" value="chrome"></parameter>
+        <parameter name="webURL" value="https://www.saucedemo.com/"></parameter>
+        <classes>
+<!--            <class name="lamnguyenthanh.testcases.SignInTest">-->
+            <class name="lamnguyenthanh.testcases.ProductTest">
+            </class>
+        </classes>
+    </test>
+</suite>
