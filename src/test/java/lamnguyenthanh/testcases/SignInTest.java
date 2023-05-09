@@ -14,7 +14,6 @@ public class SignInTest extends BaseSetUp {
     @BeforeClass
     public void setUp() {
         driver = getDriver();
-
     }
 
     @Test

@@ -25,9 +25,6 @@ public class ProductTest extends BaseSetUp {
     @Test(priority = 0)
     public void SignInPage() throws InterruptedException {
         signInPage = new SignInPage(driver);
-//        WebDriverWait wait = new WebDriverWait(driver, 10);
-//        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("login-button")));
-//        Thread.sleep(3000);
         productPage = signInPage.SignIn("standard_user", "secret_sauce");
     }
 
@@ -36,6 +33,7 @@ public class ProductTest extends BaseSetUp {
         productPage = new ProductPage(driver);
         productPage.verifyProductPage();
     }
+
 
     @AfterTest
     public void close() {

@@ -66,8 +66,7 @@ public class BaseSetUp {
         } catch (Exception e) {
             System.out.println("Error..." + e.getStackTrace());
         }
-        //đợi cho đến khi tất cả các phần tử được tải xuống và sẵn sàng để thao tác.
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
     }
 
     @AfterClass
